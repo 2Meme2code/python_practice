@@ -31,10 +31,4 @@ def swap_array1(a):
     a[i]=a[n-(i+1)]
     a[n-(i+1)] = t
 
-def test_swap():
-  
-  u=[1,2,3,4,5]
-  print u
-  swap_array1(u)
-  print u
   
